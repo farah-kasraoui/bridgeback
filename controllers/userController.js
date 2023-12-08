@@ -69,7 +69,7 @@ const loginUserCtrl = asyncHandler(async (req, res) => {
       throw new Error("Invalid Credentials");
     }
   });
-//   const loginAdmin = asyncHandler(async (req, res) => {
+
 //     const { email, password } = req.body;
 //     // check if user exists or not
 //     const findAdmin = await User.findOne({ email });
